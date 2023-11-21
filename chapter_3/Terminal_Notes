@@ -1,0 +1,11 @@
+cd <directory> - change directory. If you use the command with no arguments, it changes the directory back to your top-level home directory. The current directory is specified as . and the parent directory of the current working directory is specified using ..
+cd .. - go up one directory in the file tree.
+ls - lists the files in the current directory
+pwd - tells you the complete pathname of the current directory
+mv <from> <to> - move a file, including just renaming it in the current directory. The mv command will remove the file in the old location after copying it to the new location.
+cp <from> <to> - copy a file to a new location or name
+mkdir <directory name> - make a directory
+rmdir <directory name> - remove a directory (the directory must be empty)
+less <filename> - scroll through a file
+cat <filename> - send the file to standard output
+echo "a string" write the text within the string to standard output
